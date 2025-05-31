@@ -12,7 +12,7 @@ List<Nama> parseCharacter(String responseBody) {
 
 Future<List<Nama>> fetchCharacters() async {
 
-  //final String jsonString = await rootBundle.loadString('assets/data.json');
+  //final String jsonString = await rootBundle.loadString('asset/data.json');
   //return compute(parseCharacter, jsonString);
 
   final http.Response response = await http.get(Uri.parse('https://api.npoint.io/6a4ace301086af61394e'));

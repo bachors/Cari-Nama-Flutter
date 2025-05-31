@@ -17,7 +17,7 @@ class MyList extends StatelessWidget {
             leading: Hero(
               tag: nama.kelamin,
               child: CircleAvatar(
-                backgroundImage: AssetImage('images/${nama.kelamin}.png'),
+                backgroundImage: NetworkImage('https://raw.githubusercontent.com/bachors/Cari-Nama-Flutter/refs/heads/master/assets/image/${nama.kelamin}.png'),
               ),
             ),
             title: Text(nama.nama),
